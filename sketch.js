@@ -4,7 +4,8 @@ function setup() {
 }
 
 function draw() {
-	x = map(mouseX, 0, windowWidth, 0, 255);
-	y = map(mouseY, 0, windowHeight, 0, 255);
-	background(x, y, 0);
+	let hr = map(hour(), 0, 23, 0, 255);
+	let min = map(minute(), 0, 59, 0, 255);
+	let sec = map(second(), 0, 59, 0, 255);
+	background(hr, min, sec);
 }
