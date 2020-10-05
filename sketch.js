@@ -9,3 +9,7 @@ function draw() {
 	let sec = map(second(), 0, 59, 0, 255);
 	background(hr, min, sec);
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
