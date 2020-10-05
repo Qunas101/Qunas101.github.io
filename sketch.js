@@ -31,7 +31,7 @@ function draw() {
 	textFont(myFont);
 	textAlign(CENTER);
 	fill(255-x, 255-x, 255-x);
-	stroke(255-hr, 255-min, 255-sec);
+	stroke(x, x, x);
 	strokeWeight(8);
 	text(hrF + ':' + minF + ':' + secF, 0, 0);
 }
