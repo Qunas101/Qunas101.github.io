@@ -9,8 +9,6 @@ A simple digital clock that changes it's background color based on what time it 
 
 <div id="sketch-holder"></div>
 
----
-
 <script src="../../../../libraries/p5.js"></script>
 <script src="../../../../libraries/p5.dom.js"></script>
 <script src="../../../../libraries/p5.sound.js"></script>
@@ -55,7 +53,7 @@ function draw() {
 	fill(255-x, 255-x, 255-x);
 	stroke(x, x, x);
 	strokeWeight(8);
-	text(hrF + ':' + minF + ':' + secF, 0, 20);
+	text(hrF + ':' + minF + ':' + secF, 0, 30);
 }
 
 //function windowResized() {
