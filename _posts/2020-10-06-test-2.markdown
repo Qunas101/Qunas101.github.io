@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "Test 2"
+date:   2020-10-06 21:32:00 +0300
+categories: test
+---
