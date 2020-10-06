@@ -11,8 +11,10 @@ A simple digital clock that changes it's background color based on what time it 
 
 ---
 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
-<script>
+<script src="https://qunas101.github.io/_projects/libraries/p5.js"></script>
+<script src="https://qunas101.github.io/_projects/libraries/p5.dom.js"></script>
+<script src="https://qunas101.github.io/_projects/libraries/p5.sound.js"></script><script>
+
 let myFont;
 let canvasX = 740;
 let canvasY = 460;
