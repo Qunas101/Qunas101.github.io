@@ -47,13 +47,22 @@ function draw() {
 		secF = '0' + second().toString();
 	}
 	//let x = (hr+min+sec)/3;
-	let x = Math.floor((Math.random() * ((hr+min+sec)/3)) + 0);
+	//let x = Math.floor((Math.random() * ((hr+min+sec)/3)) + 0);
+	
+	let r = Math.floor((Math.random() * hr) + 0);
+	let g = Math.floor((Math.random() * min) + 0);
+	let b = Math.floor((Math.random() * sec) + 0);
 	console.log(x);
 	textSize(80);
 	textFont(myFont);
 	textAlign(CENTER);
-	fill(255-x, 255-x, 255-x);
-	stroke(x, x, x);
+	
+	//fill(255-x, 255-x, 255-x);
+	//stroke(x, x, x);
+	
+	fill(r, g, b);
+	stroke(15,15,15);
+	
 	strokeWeight(8);
 	text(hrF + ':' + minF + ':' + secF, 0, 30);
 }
