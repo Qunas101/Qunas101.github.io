@@ -52,7 +52,7 @@ function draw() {
 	let r = Math.floor((Math.random() * hr) + 0);
 	let g = Math.floor((Math.random() * min) + 0);
 	let b = Math.floor((Math.random() * sec) + 0);
-	console.log(x);
+	console.log(r+" : "+g+" : "+b);
 	textSize(80);
 	textFont(myFont);
 	textAlign(CENTER);
