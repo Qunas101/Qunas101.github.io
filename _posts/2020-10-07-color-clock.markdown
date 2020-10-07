@@ -48,6 +48,7 @@ function draw() {
 	}
 	//let x = (hr+min+sec)/3;
 	let x = Math.floor((Math.random() * ((hr+min+sec)/3)) + 0);
+	console.log(x);
 	textSize(80);
 	textFont(myFont);
 	textAlign(CENTER);
