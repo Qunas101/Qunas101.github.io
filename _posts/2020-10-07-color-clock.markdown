@@ -46,7 +46,8 @@ function draw() {
 	if(second() < 10){
 		secF = '0' + second().toString();
 	}
-	let x = (hr+min+sec)/3;
+	//let x = (hr+min+sec)/3;
+	let x = Math.floor((Math.random() * ((hr+min+sec)/3)) + 0);
 	textSize(80);
 	textFont(myFont);
 	textAlign(CENTER);
